@@ -6,7 +6,7 @@ setwd("C://Users/kekem/Desktop/GEO_data/")
 
 
 
-target="GSE118260"
+target="GSE118260" ### A project of interest
 gse=getGEO(target,GSEMatrix = T)
 print(gse)
 expr=t(assayData(gse[[1]])$exprs)

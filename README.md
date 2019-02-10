@@ -17,7 +17,7 @@ Please note that you have enough size of RAM. DNA methylation data is usually as
 
 4-2. Install the R package "GEOquery" through bioconductor.
 
-4-3. Install the R pacakge "feather" using install.packages command. The feather format can handle a large dataset faster than csv or Rdata (rda) format to my experience.
+4-3. Install the R pacakge "feather" using install.packages command. The feather format can handle a large dataset faster than csv or Rdata (rda) format.
 
 4-4. Run the enclosed R code after replacing the pre-selected GEO number with yours.
 
